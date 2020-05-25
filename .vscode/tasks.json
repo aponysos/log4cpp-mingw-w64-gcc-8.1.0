@@ -8,7 +8,7 @@
             "args": [
                 "${workspaceFolder}/log4cpp-test/log4cpp-test.cpp",
                 "${workspaceFolder}/build/liblog4cppD.a",
-                "-o main.exe",
+                "-o", "main.exe",
                 "-I${workspaceFolder}/include/",
                 "-g",
 				"-Wall",

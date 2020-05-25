@@ -1,4 +1,5 @@
-#pragma once
+#ifndef LOG4CPP_H_INC
+#define LOG4CPP_H_INC
 
 #include "log4cpp\Category.hh"
 #include "log4cpp\OstreamAppender.hh"
@@ -38,3 +39,5 @@ private:
 #define TRACE_FUNC2(param1, param2) \
   TRACE_FUNC1(param1); \
   DEBUG_LOG() << #param2 << " = " << param2
+
+#endif // LOG4CPP_H_INC
