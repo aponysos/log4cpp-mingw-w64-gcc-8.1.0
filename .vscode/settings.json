@@ -1,0 +1,12 @@
+{
+    "cmake.mingwSearchDirs": [
+        "C:\\mingw64"
+    ],
+    "cmake.cmakePath": "C:\\CMake\\bin\\cmake.exe",
+    "cmake.configureOnOpen": true,
+    "cmake.debugConfig": {
+        "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",    
+        "externalConsole": true,  
+        "stopAtEntry": false,
+    },
+}
