@@ -4,12 +4,13 @@
         {
             "type": "shell",
             "label": "g++.exe build active file",
-            "command": "C:\\mingw64\\bin\\g++.exe",
+            "command": "g++.exe",
             "args": [
-                "${workspaceFolder}/log4cpp-test/log4cpp-test.cpp",
-                "${workspaceFolder}/build/liblog4cppD.a",
                 "-o", "main.exe",
-                "-I${workspaceFolder}/include/",
+                "log4cpp-test/log4cpp-test.cpp",
+                "-Iinclude/",
+                "-Lbuild/",
+                "-llog4cppD",
                 "-g",
 				"-Wall",
 				"-std=c++17",
